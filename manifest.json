@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "SalesNav Leads Export",
+  "description": "Export Sales Navigator Leads to Spreadsheet",
+  "version": "1.0.0",
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
