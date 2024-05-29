@@ -12,5 +12,14 @@
       "128": "images/icon-128.png"
     },
     "default_popup": "popup/popup.html"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "run_at": "document_end",
+      "js": ["scripts/next_page.js", "scripts/csv.js"],
+      "all_frames": false
+    }
+  ],
+  "permissions": ["activeTab", "scripting"]
 }
